@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "867291341659",
+    "firebase_url": "https://teknisi-online-garut.firebaseio.com",
+    "project_id": "teknisi-online-garut",
+    "storage_bucket": "teknisi-online-garut.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:867291341659:android:fc72a61828e566a565f07e",
+        "android_client_info": {
+          "package_name": "com.example.aplikasiteknisionlinegarut"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "867291341659-mninqgukr59oolfk8nj0v6sq9q7r8a2q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aplikasiteknisionlinegarut",
+            "certificate_hash": "ccc688fae7606f071571bac04a97de55ee694f42"
+          }
+        },
+        {
+          "client_id": "867291341659-88ips81hmdm8tiavkr6ed70e476incr8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAavboJTzsfeT-atcd0B9LUTrvU4oXfpTA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "867291341659-88ips81hmdm8tiavkr6ed70e476incr8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

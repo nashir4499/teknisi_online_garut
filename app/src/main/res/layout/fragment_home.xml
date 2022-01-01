@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:background="#ffffff">
+
+        <TextView
+            android:id="@+id/t_elektronik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:text="Teknisi Elektronik"
+            android:textSize="20dp"
+            android:textColor="#000"/>
+
+        <ImageButton
+            android:id="@+id/tehp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="60dp"
+            android:scaleType="fitXY"
+            android:background="#ffffff"
+            android:src="@drawable/hp" />
+
+        <ImageButton
+            android:id="@+id/tepc"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="20dp"
+            android:scaleType="fitXY"
+            android:background="#ffffff"
+            android:src="@drawable/laptop" />
+
+        <ImageButton
+            android:id="@+id/tetv"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:scaleType="fitXY"
+            android:background="#ffffff"
+            android:src="@drawable/tv" />
+
+        <ImageButton
+            android:id="@+id/teprint"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="180dp"
+            android:scaleType="fitXY"
+            android:background="#ffffff"
+            android:src="@drawable/printer" />
+
+        <ImageButton
+            android:id="@+id/tealatrumah"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="180dp"
+            android:scaleType="fitXY"
+            android:background="#ffffff"
+            android:src="@drawable/alatrumahtangga" />
+
+        <ImageButton
+            android:id="@+id/tealatmusikvideo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="180dp"
+            android:layout_marginRight="20dp"
+            android:scaleType="fitXY"
+            android:background="#ffffff"
+            android:src="@drawable/musikvideo" />
+
+
+        <TextView
+            android:id="@+id/t_otomotif"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="310dp"
+            android:text="Teknisi Otomotif"
+            android:textSize="20dp"
+            android:textColor="#000"/>
+
+        <ImageButton
+            android:id="@+id/temotor"
+            android:src="@drawable/motor"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="360dp"
+            android:scaleType="fitXY"
+            android:background="#ffffff"/>
+
+        <ImageButton
+            android:id="@+id/temobil"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="360dp"
+            android:layout_marginRight="30dp"
+            android:scaleType="fitXY"
+            android:background="#ffffff"
+            android:src="@drawable/mobil" />
+
+    </RelativeLayout>
+
+</FrameLayout>

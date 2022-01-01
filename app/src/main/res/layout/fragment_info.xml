@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".info">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/layout_bg"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:background="#1D2247"
+                    android:padding="5dp"
+                    android:text="Aplikasi Teknisi Garut"
+                    android:textColor="#FFFDE7"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/appinfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#000000"
+                    android:text="Aplikasi ini dibuat untuk memudahkan masyarakat Garut dalam pencarian seorang teknisi untuk mengatasi permasalahan dalam bidang teknologi yang sedang dihadapinya"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/layout_bg"
+                android:layout_marginTop="155dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Aplikasi ini juga dibuat untuk memenuhi tugas mata kuliah pengembangan berorientasi objek"
+                    android:textColor="#000000"
+                    android:textAlignment="center"
+                    android:textSize="14dp"/>
+            </LinearLayout>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="220dp"
+                android:layout_centerHorizontal="true"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:text="Kelompok Kerja yang Terdiri dari:" />
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_bg"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="250dp"
+                android:layout_marginLeft="10dp">
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/nashir"
+                    app:civ_border_color="#1D2247"
+                    app:civ_border_width="6dp"
+                    app:civ_shadow="true"
+                    app:civ_shadow_color="#8BC35A"
+                    app:civ_shadow_radius="10" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="105dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="14dp"
+                    android:textStyle="italic"
+                    android:textColor="#000000"
+                    android:textAlignment="center"
+                    android:text="M Nashir M \n(Programmer)"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_bg"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="250dp">
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/hanif"
+                    app:civ_border_color="#1D2247"
+                    app:civ_border_width="6dp"
+                    app:civ_shadow="true"
+                    app:civ_shadow_color="#8BC35A"
+                    app:civ_shadow_radius="10" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="105dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="14dp"
+                    android:textStyle="italic"
+                    android:textColor="#000000"
+                    android:textAlignment="center"
+                    android:text="Hanif T H \n(Desainer)"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_bg"
+                android:layout_marginTop="250dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp">
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/jahid"
+                    app:civ_border_color="#1D2247"
+                    app:civ_border_width="6dp"
+                    app:civ_shadow="true"
+                    app:civ_shadow_color="#8BC35A"
+                    app:civ_shadow_radius="10" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="105dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="14dp"
+                    android:textStyle="italic"
+                    android:textColor="#000000"
+                    android:textAlignment="center"
+                    android:text="R. Mujahid A \n(Desainer)"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_bg"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="420dp"
+                android:layout_marginLeft="10dp">
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/ciko"
+                    app:civ_border_color="#1D2247"
+                    app:civ_border_width="6dp"
+                    app:civ_shadow="true"
+                    app:civ_shadow_color="#8BC35A"
+                    app:civ_shadow_radius="10" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="105dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="14dp"
+                    android:textStyle="italic"
+                    android:textColor="#000000"
+                    android:textAlignment="center"
+                    android:text="Rexyco G \n(Analis)"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_bg"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="420dp">
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/ciyos"
+                    app:civ_border_color="#1D2247"
+                    app:civ_border_width="6dp"
+                    app:civ_shadow="true"
+                    app:civ_shadow_color="#8BC35A"
+                    app:civ_shadow_radius="10" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="105dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="14dp"
+                    android:textStyle="italic"
+                    android:textColor="#000000"
+                    android:textAlignment="center"
+                    android:text="Yosviani Q \n(Laporan)"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_bg"
+                android:layout_marginTop="420dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp">
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/iik"
+                    app:civ_border_color="#1D2247"
+                    app:civ_border_width="6dp"
+                    app:civ_shadow="true"
+                    app:civ_shadow_color="#8BC35A"
+                    app:civ_shadow_radius="10" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="105dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="14dp"
+                    android:textStyle="italic"
+                    android:textColor="#000000"
+                    android:textAlignment="center"
+                    android:text="Iik A K \n(Laporan)"/>
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+</FrameLayout>
